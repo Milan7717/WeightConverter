@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="h-[100vh] bg-green-400 flex justify-center items-center">
+        <div class="bg-gray-200 rounded-lg p-4 lg:w-[60%] w-[70%]">
+            <h1 class="text-3xl font-bold text-center my-4">Weight Converter</h1>
+            <div class="flex my-10 justify-between items-center">
+                <p class="text-lg">Pounds :</p>
+                <input id="input" class="w-[75%] rounded  outline-none  py-1 px-2" type="number" step=".1">
+            </div>
+            <p class="text-lg mt-6 mb-2">Your weight in kg is : <span id="result"></span></p>
+
+            <p id="error" class="text-center my-4 text-lg"></p>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
